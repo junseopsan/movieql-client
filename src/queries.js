@@ -25,6 +25,7 @@ export const MOVIE_DETAILS = gql`
       rating
     }
     suggestions(id: $movieId) {
+      id
       title
       rating
       medium_cover_image
